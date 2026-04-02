@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ledgerhq/errors": "^6.32.0",
     "@rainbow-me/rainbowkit": "^1.3.6",
     "@solana/wallet-adapter-base": "^0.9.27",
     "@solana/wallet-adapter-react": "0.15.35",
@@ -20,7 +21,7 @@
     "next": "^14.2.35",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "viem": "^1.0.0",
+    "viem": "^1.21.4",
     "wagmi": "^1.2.0"
   },
   "devDependencies": {
